@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyle's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
@@ -19,17 +22,21 @@
     </header>
 
     <div id="hero">
-        <h1 class="hero__text">Hi there 👋</h1>
-        <h1 class="hero__text">I'm Kyle</h1>
+        <div id="hero__text-container">
+            <h1 class="hero__text">Hi there 👋</h1>
+            <h1 class="hero__text">I'm Kyle!</h1>
+        </div>
     </div>
 
     <div id="about">
-        <h2 class="section-header">A Little Bit About Me</h2>
+        <h2 class="section-header">A little bit about me</h2>
         <p class="section-text">
             I graduated from Gonzaga University in Spokane, WA in 2023 with a Bachelor of Arts in Computer Science and Computational Thinking,
             and now I'm working towards my Master of Science in Computer Science and Software Engineering at the University of Washington's
-            Bothell campus! Right now I'm working on expanding my web development skills/toolset and learning game development with Unity 🙂.
+            Bothell campus! In terms of personal endeavors, at the moment I'm expanding my web development skills/toolset and learning game
+            development with Unity 🙂.
         </p>
+        <br>
         <p class="section-text"><span class="section-text--bold">Contact: </span>kamanning811@outlook.com</p>
     </div>
 
@@ -38,7 +45,7 @@
     </div>
 
     <footer id="footer">
-        <p class="section-text">&copy; 2024 Kyle Manning. All rights reserved.</p>
+        <div>&copy; 2024 Kyle Manning. All rights reserved.</div>
     </footer>
 
 </body>
