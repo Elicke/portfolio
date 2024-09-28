@@ -37,6 +37,45 @@ body {
     margin: 0 auto;
 }
 
+.top-bar__link {
+    position: relative;
+    display: inline-block;
+}
+
+.top-bar__link svg {
+    transition: fill 0.3s ease;
+}
+
+.top-bar__link:hover svg {
+    fill: #808080;
+}
+
+.top-bar__link:hover svg path {
+    fill: #808080;
+}
+
+.top-bar__link::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.top-bar__link:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
 #hero {
     height: 93vh;
     margin: 7vh 0;
