@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "name": "Test Project",
+      "link": "https://www.google.com",
+      "thumbnail": "./resources/frog-splash.jpg"
+    },
+    {
+      "name": "Another Project",
+      "link": "https://www.google.com",
+      "thumbnail": "./resources/frog-splash.jpg"
+    }
+  ]
+}
