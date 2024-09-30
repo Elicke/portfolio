@@ -152,3 +152,45 @@ body {
     text-align: center;
     line-height: 7vh;
 }
+
+#projects-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 47.5%;
+    max-width: 500px;
+}
+
+.project a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.project-thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover .project-thumbnail {
+    transform: scale(1.05);
+}
+
+.project-name {
+    margin: 1vh 0 2vh;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: 100%;
+    }
+}
