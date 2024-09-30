@@ -1,14 +1,24 @@
 {
   "projects": [
     {
-      "name": "Test Project",
-      "link": "https://www.google.com",
-      "thumbnail": "./resources/frog-splash.jpg"
+      "name": "Medcurity HIPAA Gamification",
+      "link": "https://drive.google.com/file/d/1jQEEKHnOBkqbxy-w5ptD_6tAG4HzZL8X/view?usp=sharing",
+      "thumbnail": "./resources/medcurity.png"
     },
     {
-      "name": "Another Project",
-      "link": "https://www.google.com",
-      "thumbnail": "./resources/frog-splash.jpg"
+      "name": "Boggle Online for Android",
+      "link": "https://www.youtube.com/watch?v=PNUz33Lj7UI",
+      "thumbnail": "./resources/boggle-online.PNG"
+    },
+    {
+      "name": "Spotify Hit Prediction",
+      "link": "https://github.com/Elicke/CPSC322-Final-Project",
+      "thumbnail": "./resources/spotify-hit-prediction.PNG"
+    },
+    {
+      "name": "Pokémon Database",
+      "link": "https://www.youtube.com/watch?v=a2P-8mD6UGE",
+      "thumbnail": "./resources/pkmn-db.PNG"
     }
   ]
 }
